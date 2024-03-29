@@ -21,3 +21,20 @@
 - Knex
 - Zod
 - Dotenv
+
+## Comandos usados
+
+Cria migration:
+```bash
+npm run knex -- migrate:create <nome-tabela>
+```
+
+Roda última migration:
+```bash
+npm run knex -- migrate:latest 
+```
+
+Sobe server:
+```bash
+npm run dev 
+```
